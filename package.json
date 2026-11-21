@@ -1,0 +1,29 @@
+{
+  "name": "krisdexheimer-site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:review": "vite --mode review",
+    "build": "tsc -b && vite build",
+    "build:review": "tsc -b && vite build --mode review",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "preview:review": "vite preview --outDir dist-review",
+    "check:launch": "node scripts/check-launch.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.90.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  }
+}

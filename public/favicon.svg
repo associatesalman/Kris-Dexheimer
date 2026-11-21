@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- INTERIM favicon: a simple flask taken from the motif in the published Distilled cover title.
+       Not the kaha logo. Replace with the approved kaha symbol once it exists. -->
+  <rect width="64" height="64" rx="12" fill="#0d0c0b"/>
+  <defs>
+    <clipPath id="bulb"><circle cx="32" cy="40" r="15.5"/></clipPath>
+  </defs>
+  <rect x="0" y="39" width="64" height="25" fill="#e4573d" clip-path="url(#bulb)"/>
+  <path d="M27.5 8h9M29 8v19.2a15.5 15.5 0 1 0 6 0V8" fill="none" stroke="#f3ecdc" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
